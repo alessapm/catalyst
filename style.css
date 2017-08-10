@@ -42,15 +42,11 @@ main {
 }
 
 footer {
-  /*border-top: 10px solid rgba(8,11,40,1);*/
   height: 100px;
-  background-color: #07446B;
-/*  background: -webkit-linear-gradient(rgba(8,11,40,1), rgba(8,11,40,1), rgba(8,11,40,1), #0A67A3);
-  background: -o-linear-gradient(rgba(8,11,40,1), rgba(8,11,40,1), rgba(8,11,40,1), #0A67A3);
-  background: -moz-linear-gradient(rgba(8,11,40,1), rgba(8,11,40,1), rgba(8,11,40,1), #0A67A3);
-  background: linear-gradient(rgba(8,11,40,1), rgba(8,11,40,1), rgba(8,11,40,1), #0A67A3);
-*/
+  background-color: #151B3E;
 }
+
+
 
 .catalyst {
   font-family: 'Vibur', cursive;
@@ -73,8 +69,15 @@ footer {
 }
 
 .video {
-  height: 100%;
+  height: 110%;
   width: 100%;
+  overflow: hidden;
+}
+
+#player {
+  display: block;
+  width: 100%;
+
 }
 
 .overlay {
@@ -164,6 +167,10 @@ footer {
   font-family: 'Vibur', cursive;
 }
 
+.view-box {
+  display: flex;
+}
+
 .view {
   height: 70px;
   width: 140px;
@@ -171,7 +178,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  /*font-size: 2em;*/
+  cursor: pointer;
 }
 
 .view p {
@@ -179,3 +186,27 @@ footer {
   font-family: 'Cuprum', sans-serif;
 }
 
+.arrow {
+  height: 45px;
+  width: 45px;
+  border-top: 5px solid #07446B;
+  border-right: 5px solid #07446B;
+  transform: rotate(45deg);
+  margin-top: 10px;
+}
+
+.social-icons {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon {
+  color: white;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
