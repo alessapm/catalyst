@@ -1,0 +1,138 @@
+* {
+  font-family: 'Cuprum', sans-serif;
+  color: #0A67A3;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 2;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  height: 100%;
+}
+
+header {
+  /*border: 2px solid orange;*/
+  /*height: 700px;*/
+  height: 100vh;
+  width: 100%;
+}
+
+main {
+  border: 2px solid blue;
+}
+
+footer {
+  border: 2px solid yellow;
+}
+
+.catalyst {
+  font-family: 'Vibur', cursive;
+  font-size: 3em;
+}
+
+.tab {
+  transition: all .35s ease;
+}
+
+.tab:hover {
+  cursor: pointer;
+  letter-spacing: 2px;
+  color: rgba(166,135,21,1);
+}
+
+.video-container {
+  height: 100%;
+  width: 100%;
+}
+
+.video {
+  height: 100%;
+  width: 100%;
+}
+
+.overlay {
+  /*border: 7px solid pink;*/
+  height: 100%;
+  position: relative;
+  width: 100%;
+  top: -100vh;
+  background: rgba(13,19,127,.6);
+  background: -webkit-linear-gradient(rgba(13,19,127,.5), rgba(8,11,40,1));
+  background: -o-linear-gradient(rgba(13,19,127,.5), rgba(8,11,40,1));
+  background: -moz-linear-gradient(rgba(13,19,127,.5), rgba(8,11,40,1));
+  background: linear-gradient(rgba(13,19,127,.5), rgba(8,11,40,1));
+
+  display: flex;
+  align-items: center;
+}
+
+.header-text {
+  /*border: 5px white solid;*/
+  color: white;
+  font-size: 2.5em;
+  height: 50%;
+  width: 60%;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+
+.header-text h1, .header-text h2 {
+  color: white;
+  margin: 0;
+}
+
+#player {
+  height: 100%;
+  width: 100%;
+}
+
+.topic {
+  border: 2px solid green;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.left, .right {
+  height: 100%;
+  width: 50%;
+}
+
+
+.one {
+  background-image: url('./images/ali.jpg');
+  background-size: cover;
+}
+
+.two {
+  background-image: url('./images/victor.jpg');
+  background-size: cover;
+}
+
+.three {
+  background-image: url('./images/chau.jpg');
+  background-size: cover;
+}
+
+.shade {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(166,135,21,.8);
+}
+
+
