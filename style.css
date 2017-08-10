@@ -266,19 +266,21 @@ footer {
     height: 450px;
   }
   .left {
-    width: 75%;
+    width: 100%;
+    border-top: 2px solid navy;
   }
 
   .right {
-    width: 25%;
+    width: 0%;
+    border-top: 2px solid navy;
   }
 
   #middle {
-    width: 75% !important;
+    width: 100% !important;
   }
 
   #mid {
-    width: 25% !important;
+    width: 0% !important;
   }
 
   .social-icons {
